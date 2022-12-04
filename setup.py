@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'approach_controller_exe = docking_approach_controller.docking_approach_controller:main',
         ],
-    },
+    }
 )
